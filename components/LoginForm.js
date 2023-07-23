@@ -2,7 +2,7 @@ import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Checkbox from "@mui/material/Checkbox";
-import Link from "@mui/material/Link";
+import Link from "next/link";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
@@ -68,7 +68,7 @@ export default function LoginForm() {
           </Button>
           <Grid container spacing={2}>
             <Grid item xs={6}>
-              <Link href="#" variant="body2">
+              <Link href="/forgotpassword" >
               <Button
                 type="submit"
                 fullWidth
@@ -80,7 +80,7 @@ export default function LoginForm() {
               </Link>
             </Grid>
             <Grid item xs={6}>
-              <Link href="#" variant="body2">
+              <Link href="/register" >
               <Button
                 type="submit"
                 fullWidth

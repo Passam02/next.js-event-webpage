@@ -8,7 +8,7 @@ const NavBar = () => {
         <AppBar color='primary' position='static' style={{ height: "64px" }}>
             <Toolbar>
                 <Typography color='inherit'>
-                EVENT  
+                <Link href={"/"} style={{textDecoration: "none", color: "inherit"}}>EVENT</Link>    
                 </Typography>
                 <NavBarMenu/>
                 <NavBarLogin/>

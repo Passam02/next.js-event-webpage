@@ -81,26 +81,26 @@ export default function NavBarMenu() {
         open={open}
         onClose={handleClose}
       >
-          
+          <Link href={"/about"} style={{textDecoration: "none", color: "inherit"}}>
             <MenuItem onClick={handleClose} disableRipple>
             About
             </MenuItem>
-          
-          
+          </Link>
+          <Link href={"/hotel"} style={{textDecoration: "none", color: "inherit"}}>
             <MenuItem onClick={handleClose} disableRipple>
             Hotel
             </MenuItem>
-          
-          
+          </Link>
+          <Link href={"/pricing"} style={{textDecoration: "none", color: "inherit"}}>
             <MenuItem onClick={handleClose} disableRipple>
             Pricing
             </MenuItem>
-          
-          
+          </Link>
+          <Link href={"/contact"} style={{textDecoration: "none", color: "inherit"}}>
             <MenuItem onClick={handleClose} disableRipple>
             Contact
             </MenuItem>
-          
+          </Link>
       </StyledMenu>
     </div>
   );
